@@ -17,4 +17,9 @@ def test_temperature() -> None:
             print(e)
 
 
-test_temperature()
+def main() -> None:
+    test_temperature()
+
+
+if __name__ == "__main__":
+    main()
