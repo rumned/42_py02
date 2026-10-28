@@ -10,7 +10,6 @@ def test_temperature() -> None:
             inp = input_temperature(i)
         except Exception as e:
             print(e)
-            return
         print(inp)
 
 
