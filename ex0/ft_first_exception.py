@@ -4,7 +4,7 @@ def input_temperature(temp_str: str) -> int:
 
 
 def test_temperature() -> None:
-    test = ['25', 'abc']
+    test: list[str] = ['25', 'abc']
     for i in test:
         try:
             inp = input_temperature(i)
