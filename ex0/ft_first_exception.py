@@ -8,9 +8,9 @@ def test_temperature() -> None:
     for i in test:
         try:
             inp = input_temperature(i)
+            print(inp)
         except Exception as e:
             print(e)
-        print(inp)
 
 
 test_temperature()
