@@ -4,7 +4,7 @@ def input_temperature(temp_str: str) -> int:
     if temp in range(0, 41):
         return (temp)
     else:
-        raise ValueError("Temperature bad for plants(min 0°C, max 40°C)")
+        raise ValueError(f"Temp bad for plants:{temp_str}(min 0°C, max 40°C)")
 
 
 def test_temperature() -> None:
