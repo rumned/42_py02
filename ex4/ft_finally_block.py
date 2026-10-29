@@ -13,6 +13,7 @@ class WaterError(GardenError):
     def __init__(self, error_msg: str = "Unknown water error"):
         super().__init__(error_msg)
 
+
 def water_plant(plant_name: str) -> None:
     if plant_name == plant_name.capitalize():
         print(f"{plant_name} capitalized, watering success")
@@ -34,8 +35,10 @@ def test_watering_system() -> None:
         print("==Close watering system==\n")
         print("Cleanup always happens even with errors")
 
+
 def main() -> None:
     test_watering_system()
+
 
 if __name__ == "__main__":
     main()
